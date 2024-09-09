@@ -1,0 +1,283 @@
+*** Using Compiler 'V6.22', folder: 'C:\Users\14367\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'test_feedback'
+../Core/Src/main.c(29): warning: In file included from...../User\dvc_serialplot.h(20): warning: In file included from...../User\drv_uart.h(46): error: must use 'struct' tag to refer to type 'Struct_UART_Manage_Object'
+   46 | extern Struct_UART_Manage_Object UART1_Manage_Object;
+      |        ^
+      |        struct 
+../User\drv_uart.h(47): error: must use 'struct' tag to refer to type 'Struct_UART_Manage_Object'
+   47 | extern Struct_UART_Manage_Object UART2_Manage_Object;
+      |        ^
+      |        struct 
+../User\drv_uart.h(48): error: must use 'struct' tag to refer to type 'Struct_UART_Manage_Object'
+   48 | extern Struct_UART_Manage_Object UART3_Manage_Object;
+      |        ^
+      |        struct 
+../User\drv_uart.h(49): error: must use 'struct' tag to refer to type 'Struct_UART_Manage_Object'
+   49 | extern Struct_UART_Manage_Object UART4_Manage_Object;
+      |        ^
+      |        struct 
+../User\drv_uart.h(50): error: must use 'struct' tag to refer to type 'Struct_UART_Manage_Object'
+   50 | extern Struct_UART_Manage_Object UART5_Manage_Object;
+      |        ^
+      |        struct 
+../User\drv_uart.h(51): error: must use 'struct' tag to refer to type 'Struct_UART_Manage_Object'
+   51 | extern Struct_UART_Manage_Object UART6_Manage_Object;
+      |        ^
+      |        struct 
+../User\drv_uart.h(52): error: must use 'struct' tag to refer to type 'Struct_UART_Manage_Object'
+   52 | extern Struct_UART_Manage_Object UART7_Manage_Object;
+      |        ^
+      |        struct 
+../User\drv_uart.h(53): error: must use 'struct' tag to refer to type 'Struct_UART_Manage_Object'
+   53 | extern Struct_UART_Manage_Object UART8_Manage_Object;
+      |        ^
+      |        struct 
+../Core/Src/main.c(29): warning: In file included from...../User\dvc_serialplot.h(49): error: unknown type name 'class'
+   49 | class Class_Serialplot
+      | ^
+../User\dvc_serialplot.h(49): error: expected ';' after top level declarator
+   49 | class Class_Serialplot
+      |                       ^
+      |                       ;
+../Core/Src/main.c(30): warning: In file included from...../User\drv_bsp.h(67): error: C does not support default arguments
+   67 | void BSP_Init(uint32_t Status, float IMU_Heater_Rate = 0, float Buzzer_Rate = 0);
+      |                                                      ^ ~
+../User\drv_bsp.h(67): error: C does not support default arguments
+   67 | void BSP_Init(uint32_t Status, float IMU_Heater_Rate = 0, float Buzzer_Rate = 0);
+      |                                                                             ^ ~
+../User\drv_bsp.h(69): error: must use 'enum' tag to refer to type 'Enum_BSP_DC24_Status'
+   69 | void BSP_DC24_LU(Enum_BSP_DC24_Status Status);
+      |                  ^
+      |                  enum 
+../User\drv_bsp.h(70): error: must use 'enum' tag to refer to type 'Enum_BSP_DC24_Status'
+   70 | void BSP_DC24_LD(Enum_BSP_DC24_Status Status);
+      |                  ^
+      |                  enum 
+../User\drv_bsp.h(71): error: must use 'enum' tag to refer to type 'Enum_BSP_DC24_Status'
+   71 | void BSP_DC24_RU(Enum_BSP_DC24_Status Status);
+      |                  ^
+      |                  enum 
+../User\drv_bsp.h(72): error: must use 'enum' tag to refer to type 'Enum_BSP_DC24_Status'
+   72 | void BSP_DC24_RD(Enum_BSP_DC24_Status Status);
+      |                  ^
+      |                  enum 
+../User\drv_bsp.h(74): error: must use 'enum' tag to refer to type 'Enum_BSP_LED_Status'
+   74 | void BSP_LED_R(Enum_BSP_LED_Status Status);
+      |                ^
+      |                enum 
+../User\drv_bsp.h(75): error: must use 'enum' tag to refer to type 'Enum_BSP_LED_Status'
+   75 | void BSP_LED_G(Enum_BSP_LED_Status Status);
+      |                ^
+      |                enum 
+../User\drv_bsp.h(77): error: must use 'enum' tag to refer to type 'Enum_BSP_LED_Status'
+   77 | void BSP_LED_1(Enum_BSP_LED_Status Status);
+      |                ^
+      |                enum 
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+compiling main.c...
+compiling dma.c...
+compiling can.c...
+compiling gpio.c...
+compiling stm32f4xx_it.c...
+compiling stm32f4xx_hal_msp.c...
+compiling usart.c...
+../User/drv_can.c(14): warning: In file included from...../User\drv_can.h(52): error: must use 'struct' tag to refer to type 'Struct_CAN_Rx_Buffer'
+   52 | typedef void (*CAN_Call_Back)(Struct_CAN_Rx_Buffer *);
+      |                               ^
+      |                               struct 
+../User\drv_can.h(69): error: must use 'struct' tag to refer to type 'Struct_CAN_Manage_Object'
+   69 | extern Struct_CAN_Manage_Object CAN1_Manage_Object;
+      |        ^
+      |        struct 
+../User\drv_can.h(70): error: must use 'struct' tag to refer to type 'Struct_CAN_Manage_Object'
+   70 | extern Struct_CAN_Manage_Object CAN2_Manage_Object;
+      |        ^
+      |        struct 
+../User/drv_can.c(22): error: must use 'struct' tag to refer to type 'Struct_CAN_Manage_Object'
+   22 | Struct_CAN_Manage_Object CAN1_Manage_Object = {0};
+      | ^
+      | struct 
+../User/drv_can.c(23): error: must use 'struct' tag to refer to type 'Struct_CAN_Manage_Object'
+   23 | Struct_CAN_Manage_Object CAN2_Manage_Object = {0};
+      | ^
+      | struct 
+../User/drv_can.c(181): error: must use 'struct' tag to refer to type 'Struct_CAN_Rx_Buffer'
+  181 |     static Struct_CAN_Rx_Buffer can_rx_buffer;
+      |            ^
+      |            struct 
+../User/drv_can.c(204): error: must use 'struct' tag to refer to type 'Struct_CAN_Rx_Buffer'
+  204 |     static Struct_CAN_Rx_Buffer can_rx_buffer;
+      |            ^
+      |            struct 
+7 errors generated.
+compiling drv_can.c...
+../User/drv_bsp.c(14): warning: In file included from...../User\drv_bsp.h(67): error: C does not support default arguments
+   67 | void BSP_Init(uint32_t Status, float IMU_Heater_Rate = 0, float Buzzer_Rate = 0);
+      |                                                      ^ ~
+../User\drv_bsp.h(67): error: C does not support default arguments
+   67 | void BSP_Init(uint32_t Status, float IMU_Heater_Rate = 0, float Buzzer_Rate = 0);
+      |                                                                             ^ ~
+../User\drv_bsp.h(69): error: must use 'enum' tag to refer to type 'Enum_BSP_DC24_Status'
+   69 | void BSP_DC24_LU(Enum_BSP_DC24_Status Status);
+      |                  ^
+      |                  enum 
+../User\drv_bsp.h(70): error: must use 'enum' tag to refer to type 'Enum_BSP_DC24_Status'
+   70 | void BSP_DC24_LD(Enum_BSP_DC24_Status Status);
+      |                  ^
+      |                  enum 
+../User\drv_bsp.h(71): error: must use 'enum' tag to refer to type 'Enum_BSP_DC24_Status'
+   71 | void BSP_DC24_RU(Enum_BSP_DC24_Status Status);
+      |                  ^
+      |                  enum 
+../User\drv_bsp.h(72): error: must use 'enum' tag to refer to type 'Enum_BSP_DC24_Status'
+   72 | void BSP_DC24_RD(Enum_BSP_DC24_Status Status);
+      |                  ^
+      |                  enum 
+../User\drv_bsp.h(74): error: must use 'enum' tag to refer to type 'Enum_BSP_LED_Status'
+   74 | void BSP_LED_R(Enum_BSP_LED_Status Status);
+      |                ^
+      |                enum 
+../User\drv_bsp.h(75): error: must use 'enum' tag to refer to type 'Enum_BSP_LED_Status'
+   75 | void BSP_LED_G(Enum_BSP_LED_Status Status);
+      |                ^
+      |                enum 
+../User\drv_bsp.h(77): error: must use 'enum' tag to refer to type 'Enum_BSP_LED_Status'
+   77 | void BSP_LED_1(Enum_BSP_LED_Status Status);
+      |                ^
+      |                enum 
+../User\drv_bsp.h(78): error: must use 'enum' tag to refer to type 'Enum_BSP_LED_Status'
+   78 | void BSP_LED_2(Enum_BSP_LED_Status Status);
+      |                ^
+      |                enum 
+../User\drv_bsp.h(79): error: must use 'enum' tag to refer to type 'Enum_BSP_LED_Status'
+   79 | void BSP_LED_3(Enum_BSP_LED_Status Status);
+      |                ^
+      |                enum 
+../User\drv_bsp.h(80): error: must use 'enum' tag to refer to type 'Enum_BSP_LED_Status'
+   80 | void BSP_LED_4(Enum_BSP_LED_Status Status);
+      |                ^
+      |                enum 
+../User\drv_bsp.h(81): error: must use 'enum' tag to refer to type 'Enum_BSP_LED_Status'
+   81 | void BSP_LED_5(Enum_BSP_LED_Status Status);
+      |                ^
+      |                enum 
+../User\drv_bsp.h(82): error: must use 'enum' tag to refer to type 'Enum_BSP_LED_Status'
+   82 | void BSP_LED_6(Enum_BSP_LED_Status Status);
+      |                ^
+      |                enum 
+../User\drv_bsp.h(83): error: must use 'enum' tag to refer to type 'Enum_BSP_LED_Status'
+   83 | void BSP_LED_7(Enum_BSP_LED_Status Status);
+      |                ^
+      |                enum 
+../User\drv_bsp.h(84): error: must use 'enum' tag to refer to type 'Enum_BSP_LED_Status'
+   84 | void BSP_LED_8(Enum_BSP_LED_Status Status);
+      |                ^
+      |                enum 
+../User/drv_bsp.c(33): error: use of undeclared identifier 'static_cast'
+   33 |     BSP_DC24_LU(static_cast<Enum_BSP_DC24_Status>((Status & BSP_DC24_LU_ON) == 0 ? BSP_DC24_Status_DISABLED : BSP_DC24_Status_ENABLED));
+      |                 ^
+../User/drv_bsp.c(33): error: use of undeclared identifier 'Enum_BSP_DC24_Status'
+   33 |     BSP_DC24_LU(static_cast<Enum_BSP_DC24_Status>((Status & BSP_DC24_LU_ON) == 0 ? BSP_DC24_Status_DISABLED : BSP_DC24_Status_ENABLED));
+      |                             ^
+../User/drv_bsp.c(34): error: use of undeclared identifier 'static_cast'
+   34 |     BSP_DC24_LD(static_cast<Enum_BSP_DC24_Status>((Status & BSP_DC24_LD_ON) == 0 ? BSP_DC24_Status_DISABLED : BSP_DC24_Status_ENABLED));
+      |                 ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+compiling drv_bsp.c...
+../User/drv_uart.c(14): warning: In file included from...../User\drv_uart.h(46): error: must use 'struct' tag to refer to type 'Struct_UART_Manage_Object'
+   46 | extern Struct_UART_Manage_Object UART1_Manage_Object;
+      |        ^
+      |        struct 
+../User\drv_uart.h(47): error: must use 'struct' tag to refer to type 'Struct_UART_Manage_Object'
+   47 | extern Struct_UART_Manage_Object UART2_Manage_Object;
+      |        ^
+      |        struct 
+../User\drv_uart.h(48): error: must use 'struct' tag to refer to type 'Struct_UART_Manage_Object'
+   48 | extern Struct_UART_Manage_Object UART3_Manage_Object;
+      |        ^
+      |        struct 
+../User\drv_uart.h(49): error: must use 'struct' tag to refer to type 'Struct_UART_Manage_Object'
+   49 | extern Struct_UART_Manage_Object UART4_Manage_Object;
+      |        ^
+      |        struct 
+../User\drv_uart.h(50): error: must use 'struct' tag to refer to type 'Struct_UART_Manage_Object'
+   50 | extern Struct_UART_Manage_Object UART5_Manage_Object;
+      |        ^
+      |        struct 
+../User\drv_uart.h(51): error: must use 'struct' tag to refer to type 'Struct_UART_Manage_Object'
+   51 | extern Struct_UART_Manage_Object UART6_Manage_Object;
+      |        ^
+      |        struct 
+../User\drv_uart.h(52): error: must use 'struct' tag to refer to type 'Struct_UART_Manage_Object'
+   52 | extern Struct_UART_Manage_Object UART7_Manage_Object;
+      |        ^
+      |        struct 
+../User\drv_uart.h(53): error: must use 'struct' tag to refer to type 'Struct_UART_Manage_Object'
+   53 | extern Struct_UART_Manage_Object UART8_Manage_Object;
+      |        ^
+      |        struct 
+../User/drv_uart.c(22): error: must use 'struct' tag to refer to type 'Struct_UART_Manage_Object'
+   22 | Struct_UART_Manage_Object UART1_Manage_Object = {0};
+      | ^
+      | struct 
+../User/drv_uart.c(23): error: must use 'struct' tag to refer to type 'Struct_UART_Manage_Object'
+   23 | Struct_UART_Manage_Object UART2_Manage_Object = {0};
+      | ^
+      | struct 
+../User/drv_uart.c(24): error: must use 'struct' tag to refer to type 'Struct_UART_Manage_Object'
+   24 | Struct_UART_Manage_Object UART3_Manage_Object = {0};
+      | ^
+      | struct 
+../User/drv_uart.c(25): error: must use 'struct' tag to refer to type 'Struct_UART_Manage_Object'
+   25 | Struct_UART_Manage_Object UART4_Manage_Object = {0};
+      | ^
+      | struct 
+../User/drv_uart.c(26): error: must use 'struct' tag to refer to type 'Struct_UART_Manage_Object'
+   26 | Struct_UART_Manage_Object UART5_Manage_Object = {0};
+      | ^
+      | struct 
+../User/drv_uart.c(27): error: must use 'struct' tag to refer to type 'Struct_UART_Manage_Object'
+   27 | Struct_UART_Manage_Object UART6_Manage_Object = {0};
+      | ^
+      | struct 
+../User/drv_uart.c(28): error: must use 'struct' tag to refer to type 'Struct_UART_Manage_Object'
+   28 | Struct_UART_Manage_Object UART7_Manage_Object = {0};
+      | ^
+      | struct 
+../User/drv_uart.c(29): error: must use 'struct' tag to refer to type 'Struct_UART_Manage_Object'
+   29 | Struct_UART_Manage_Object UART8_Manage_Object = {0};
+      | ^
+      | struct 
+16 errors generated.
+compiling drv_uart.c...
+compiling stm32f4xx_hal_rcc_ex.c...
+compiling stm32f4xx_hal_rcc.c...
+compiling stm32f4xx_hal_can.c...
+../User/dvc_serialplot.cpp(115): warning: passing an object that undergoes default argument promotion to 'va_start' has undefined behavior [-Wvarargs]
+  115 |     va_start(data_ptr, Number);
+      |                        ^
+../User/dvc_serialplot.cpp(112): note: parameter of type 'uint8_t' (aka 'unsigned char') is declared here
+  112 | void Class_Serialplot::Set_Data(uint8_t Number, ...)
+      |                                         ^
+1 warning generated.
+compiling dvc_serialplot.cpp...
+compiling stm32f4xx_hal_flash_ramfunc.c...
+compiling stm32f4xx_hal_flash.c...
+compiling stm32f4xx_hal_gpio.c...
+compiling stm32f4xx_hal_flash_ex.c...
+compiling stm32f4xx_hal_dma.c...
+compiling stm32f4xx_hal_dma_ex.c...
+compiling stm32f4xx_hal_pwr.c...
+compiling stm32f4xx_hal_cortex.c...
+compiling stm32f4xx_hal_pwr_ex.c...
+compiling stm32f4xx_hal.c...
+compiling stm32f4xx_hal_tim.c...
+compiling stm32f4xx_hal_exti.c...
+compiling stm32f4xx_hal_tim_ex.c...
+compiling system_stm32f4xx.c...
+compiling stm32f4xx_hal_uart.c...
+"test_feedback\test_feedback.axf" - 61 Error(s), 1 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:09
